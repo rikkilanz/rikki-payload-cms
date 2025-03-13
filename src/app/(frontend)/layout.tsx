@@ -12,7 +12,6 @@ export default async function RootLayout(props: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
-        <h1>Hello world!</h1>
         <main>{children}</main>
       </body>
     </html>
